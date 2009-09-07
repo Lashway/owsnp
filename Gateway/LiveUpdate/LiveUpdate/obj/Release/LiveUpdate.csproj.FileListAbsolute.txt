@@ -1,0 +1,25 @@
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\bin\Release\LiveUpdate.exe
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\bin\Release\LiveUpdate.pdb
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\bin\Release\WPFVisifire.Charts.dll
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\ResolveAssemblyReference.cache
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\Window1.baml
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\Window1.g.cs
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\App.g.cs
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate_MarkupCompile.cache
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.g.resources
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.Properties.Resources.resources
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.csproj.GenerateResource.Cache
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.exe
+C:\Downloads\Samples\WPF Samples\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.pdb
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.exe
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.pdb
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\bin\Release\LiveUpdate.exe
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\bin\Release\LiveUpdate.pdb
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\ResolveAssemblyReference.cache
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\Window1.baml
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\Window1.g.cs
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\App.g.cs
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate_MarkupCompile.cache
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.g.resources
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.Properties.Resources.resources
+C:\WSN\Gateway\LiveUpdate\LiveUpdate\obj\Release\LiveUpdate.csproj.GenerateResource.Cache
