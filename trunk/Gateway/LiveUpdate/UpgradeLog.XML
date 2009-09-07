@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LiveUpdate">
+</Property><Property Name="Solution File" Value="C:\WSN\Gateway\LiveUpdate\LiveUpdate.sln">
+</Property><Property Name="User Options File" Value="C:\WSN\Gateway\LiveUpdate\LiveUpdate.suo">
+</Property><Property Name="Date" Value="2. september 2009">
+</Property><Property Name="Time" Value="15:32">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LiveUpdate.sln" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate.sln">
+</Event><Event ErrorLevel="0" Project="" Source="LiveUpdate.suo" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate.suo">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\LiveUpdate.csproj" Description="Project file successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\LiveUpdate.csproj">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\App.xaml.cs" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\App.xaml.cs">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\Window1.xaml.cs" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\Window1.xaml.cs">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\Properties\Settings.settings" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\Properties\Resources.resx" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\App.xaml" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\App.xaml">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\Window1.xaml" Description="File successfully backed up as C:\WSN\Gateway\LiveUpdate\Backup\LiveUpdate\Window1.xaml">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\LiveUpdate.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LiveUpdate" Source="LiveUpdate\LiveUpdate.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LiveUpdate.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LiveUpdate.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LiveUpdate" Source="LiveUpdate\LiveUpdate.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

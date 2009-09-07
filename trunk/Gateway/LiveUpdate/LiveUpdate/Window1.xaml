@@ -1,0 +1,75 @@
+﻿<Window x:Class="LiveUpdate.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Gateway Real Time" Height="426" Width="820">
+    <Window.Resources>
+
+        <XmlDataProvider  IsInitialLoadEnabled="True" IsAsynchronous="True"  x:Key="CharacterData">
+            <x:XData>
+                <Data xmlns="">
+                    <Character NodeName="ECG" SensorName="ECG WaveForm" DataType="mv" DataFormat="integer" SamplingFrequency="100" />
+                    <Character NodeName="Humidity/Temperature" SensorName="Temperature" DataType="kelvin" DataFormat="float" SamplingFrequency="0.5" />
+                    <Character NodeName="Humidity/Temperature" SensorName="Humidity" DataType="" DataFormat="float" SamplingFrequency="0.5" />
+                    <Character NodeName="Distance" SensorName="Distance" DataType="cm" DataFormat="float" SamplingFrequency="0.5" />
+                    <Character NodeName="Button" SensorName="Button" DataType="bool" DataFormat="int" SamplingFrequency="0.5" />
+                    <Character NodeName="Potentiometer" SensorName="Potentiometer" DataType="ohms" DataFormat="int" SamplingFrequency="0.5" />
+                    <Character NodeName="Light" SensorName="LDR" DataType="lux" DataFormat="integer" SamplingFrequency="0.5" />
+                </Data>
+            </x:XData>
+        </XmlDataProvider>
+
+    </Window.Resources>
+    <Grid>
+        <Grid Name="MainGrid" Opacity="0.9">
+            <Grid x:Name="ChartGrid" Margin="0,0,0,143"></Grid>
+            <StatusBar Height="23" Name="statusBar1" VerticalAlignment="Bottom" />
+            <Grid Margin="0,0,0,24" Name="grid1" Height="118" VerticalAlignment="Bottom">
+                <ListView Name="listview1"  ItemsSource="{Binding Source={StaticResource CharacterData}, XPath=Data/Character}" SelectionChanged="ListView_SelectionChanged">
+
+                    <ListView.View>
+
+                        <GridView>
+                            <GridViewColumn Width="150" Header="Node">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Width="98" Margin="-6,0"
+                  TextAlignment="Left" Text="{Binding XPath=@NodeName}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            <GridViewColumn Width="150" Header="Sensor Name">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Margin="-6,0" TextAlignment="Left" Text="{Binding XPath=@SensorName}" />
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            <GridViewColumn Width="150" Header="Data Type">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Margin="-6,0" TextAlignment="Left" Text="{Binding XPath=@DataType}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="150" Header="Data Format">
+                              <GridViewColumn.CellTemplate><DataTemplate>
+                                    <TextBlock Margin="-6,0" TextAlignment="Left" Text="{Binding XPath=@DataFormat}" />
+                                    </DataTemplate></GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Width="150" Header="Sampling Frequency">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Margin="-6,0" TextAlignment="Left" Text="{Binding XPath=@SamplingFrequency}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+
+                        </GridView>
+
+                    </ListView.View>
+
+                </ListView>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
